@@ -19,3 +19,13 @@
 
 @import url(../Block/photo/photo.css);
 @import url(../Block/photo/__item/photo__item.css);
+
+@import url(../Block/places/places.css);
+@import url(../Block/place/place.css);
+@import url(../Block/place/__title/place__title.css);
+@import url(../Block/place/__website/place__website.css);
+@import url(../Block/place/__url-heading/place__url-heading.css);
+@import url(../Block/place/__link/place__link.css);
+@import url(../Block/place/__image/place__image.css);
+@import url(../Block/place/__paragraphes/place__paragraphes.css);
+@import url(../Block/place/__paragraph/place__paragraph.css);

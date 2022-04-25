@@ -1,5 +1,5 @@
 .lead__image{
-    display: flex;
+    max-width: calc(100% - 148px * 2);
     margin-top: 64px;
     z-index: 0;
 }
