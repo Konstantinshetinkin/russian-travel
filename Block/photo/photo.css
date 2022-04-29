@@ -1,11 +1,13 @@
 .photo{
     display: grid;
+    justify-content: center;
     margin: 92px 48px 0 48px;
     grid-template-columns: repeat(4,284px);
     grid-template-rows: repeat(3,213px);
     gap: 16px;
     justify-items: stretch; 
 }
+
 @media screen and (max-width: 1279px){
     .photo{
         grid-template-columns: repeat(3,300px);
@@ -13,6 +15,7 @@
         gap: 14px;
     }
 }
+
 @media screen and (max-width: 1027px){
     .photo{
         margin: 88px 24px 0 24px;
@@ -24,8 +27,8 @@
 @media screen and (max-width: 767px){
     .photo{
         margin: 64px 16px 0 16px;
-        grid-template-columns: repeat(1,352px);
-        grid-template-rows: repeat(12,264px);
+        grid-template-columns: repeat(1,288px);
+        grid-template-rows: repeat(12,216px);
         gap: 12px;
     }
 }

@@ -1,8 +1,21 @@
 .place__paragraphes{
-    margin-top: 48px;
     display: flex;
-    width: 484px;
-    margin-left: 40px;
+    max-width: 484px;
     flex-direction: column;
+}
+@media screen and (max-width: 1279px){
+    .place__paragraphes{
+        max-width: 456px;
+    }
+}
     
+@media screen and (max-width: 1027px){
+    .place__paragraphes{
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 767px){
+    .place__paragraphes{
+        max-width: 288px;
+    }
 }

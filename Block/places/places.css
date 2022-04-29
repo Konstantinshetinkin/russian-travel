@@ -1,9 +1,24 @@
 .places{
+    margin: 92px 148px 0 148px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12px;
-    margin-left: 148px;
-    margin-right: 148px;
-
+    
+}
+@media screen and (max-width: 1279px){
+    .places{
+        margin: 92px 48px 0 48px;
+    }
+}
+    
+@media screen and (max-width: 1027px){
+    .places{
+        margin: 88px 24px 0 24px;
+    }
+}
+@media screen and (max-width: 767px){
+    .places{
+        margin: 64px 16px 0 16px;
+    }
 }
