@@ -35,3 +35,10 @@
 @import url(../Block/cover/__background/cover__background.css);
 @import url(../Block/cover/__title/cover__title.css);
 @import url(../Block/cover/__subtitle/cover__subtitle.css);
+
+@import url(../Block/footer/footer.css);
+@import url(../Block/footer/__links/footer__links.css);
+@import url(../Block/footer/__link/footer__link.css);
+@import url(../Block/footer/__copyright/footer__copyright.css);
+
+@import url(../Block/opacity/opacity.css);
