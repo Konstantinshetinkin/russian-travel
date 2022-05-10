@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 1027px){
+@media screen and (max-width: 1023px){
     .photo{
         margin: 88px 24px 0 24px;
         grid-template-columns: repeat(auto-fit,minmax(352px,1fr));
